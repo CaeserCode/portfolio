@@ -1,3 +1,6 @@
+"use client"
+
+import React, {useState, useEffect} from "react";
 import { Button } from "@/components/ui/button"
 import { FiDownload } from "react-icons/fi"
 
@@ -5,20 +8,33 @@ import Social from "@/components/Social"
 import Photo from "@/components/Photo"
 import Stats from "@/components/Stats"
 
+
 const Home = () => {
+
+  const roles = ['Software Engineer', 'Full Stack Software Developer', 'Web Developer'];
+  const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setCurrentRoleIndex(prevIndex => (prevIndex + 1) % roles.length);
+    }, 2000);
+
+    // Cleanup interval on component unmount
+    return () => clearInterval(intervalId);
+  }, [roles.length]);
+
   return (
     <section className="h-full">
       <div className="container mx-auto h-full">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
           {/* text */}
           <div className="text-center xl:text-left order-2 xl:order-none">
-            <span className="text-xl">Software Developer</span>
+            <span className="text-xl">{roles[currentRoleIndex]}</span>
             <h1 className="h1 mb-6">
               Hello I'm <br /> <span className="text-accent">Swapnil Patil</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              I excel at crafting elegant digital experiences and I am 
-              proficient in various programming languages and technologies.
+            I create beautifully crafted digital experiences, blending creativity and technology to bring ideas to life. With proficiency in a variety of programming languages and tools, I build online spaces that are both elegant and highly functional.
             </p>
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">

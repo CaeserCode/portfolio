@@ -9,7 +9,7 @@ import {SiTailwindcss, SiNextdotjs} from "react-icons/si"
 
 const about = {
   title: 'About me',
-  description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, pariatur? Illum laudantium voluptates, porro cumque exercitationem debitis!",
+  description: "I am a dynamic Software Development Engineer with a passion for architecting robust solutions and optimizing digital ecosystems. With a strong foundation in Java, Spring Boot, and cloud technologies like Azure and AWS, I have successfully led projects in cloud migration and microservices development, enhancing scalability and performance. My experience spans full-stack development, from crafting React-based SPAs to integrating RESTful APIs and implementing CI/CD pipelines for Agile environments. I thrive on collaborative project management, driving technical innovation while ensuring seamless teamwork across diverse, cross-functional teams. With expertise in database management, UI/UX design, and a Master's in Computer Science focused on cutting-edge technologies like cloud computing and machine learning, I am dedicated to delivering impactful solutions that elevate user experience and drive business growth.",
   info: [
     {
       fieldName: "Name",
@@ -43,10 +43,10 @@ const about = {
 const experience = {
   icon: '/assets/resume/badge.svg',
   title: 'My Experience',
-  description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, pariatur? Illum laudantium voluptates, porro cumque exercitationem debitis!",
+  description: "As a seasoned Software Developer with over five years of expertise in crafting sophisticated multi-tier enterprise applications, I excel in turning complex ideas into seamless solutions. I've led teams to success, optimized intricate systems, and architected scalable solutions that stand the test of time. I am poised to drive innovation and add significant value to future projects.",
   items: [{
     company: "Xangar's Solutions Pvt Ltd",
-    position: "Full Stack Software Developer",
+    position: "Full Stack Software Engineer",
     duration: "2021 - 2022"
   },
   {
@@ -68,7 +68,7 @@ const experience = {
 const education = {
   icon: '/assets/resume/cap.svg',
   title: 'My Education',
-  description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, pariatur? Illum laudantium voluptates, porro cumque exercitationem debitis!",
+  description: "My academic journey was an incredible adventure! I got to dive deep into the fascinating world of computer science, developing my practical skills in software development, database management, and system architecture. My coursework took me on a journey through advanced algorithms, software engineering methodologies, and distributed systems. ",
   items: [
     {
     institution: "University of Texas, Arlington",
@@ -88,7 +88,7 @@ const education = {
 
 const skills = {
   title: "My Skills",
-  description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, pariatur?",
+  description: "I am a skilled professional with a diverse skill set covering Java, Spring Boot, RestAPI, Microservices, JavaScript, React.js, HTML5, CSS3, Tailwind CSS, Cloud platforms (Azure, AWS), Docker, Python, and a range of databases. Throughout my professional journey, I have excelled in team leadership, system optimization, and crafting scalable architectures that stand the test of time.",
   skillList: [
     {
       icon: <FaHtml5 />,
