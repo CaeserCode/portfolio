@@ -17,25 +17,25 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "frontend",
+    category: "Recipe Shop",
     title: "project 1",
-    description: "Lorem ipsum dolor sit amet consectetur asdrg slfgkf lsigvnso oskgnsediofgjo",
-    stack: [{name: "Html 5"}, {name: "Css 3"}, {name: "Javascript"}],
-    image: "/assets/work/thumb1.png",
-    live: "",
+    description: "Developed a Web application using Angular 13.0 & TypeScript for managing the whole front-end with various services implemented along with back-end using Firebase API’s for Authentication, storing and retrieval of customer data.",
+    stack: [{name: "Angular 13.0"}, {name: "TypeScript"}, {name: "Firebase API"}],
+    image: "/assets/work/RecipeShop1.png",
+    live: "https://ng-course-recipe-book-15b25.web.app/",
     github: ""
   },
   {
     num: "02",
-    category: "fullstack",
+    category: "FurniFind",
     title: "project 2",
-    description: "Lorem ipsum dolor sit amet consectetur asdrg slfgkf lsigvnso oskgnsediofgjo",
-    stack: [{name: "Next.js"}, {name: "Tailwind.css"}, {name: "Node.js"}],
-    image: "/assets/work/thumb2.png",
+    description: "Spearheaded the conception and development of FurniFind, a user-friendly Web application designed to revolutionize furniture selection for students",
+    stack: [{name: "Html 5"}, {name: "Css 3"}, {name: "React/Javascript"}, {name: "ASP.NET"}, ],
+    image: "/assets/work/Furni.png",
     live: "",
     github: ""
   },
-  {
+  /* {
     num: "03",
     category: "frontend",
     title: "project 3",
@@ -44,7 +44,7 @@ const projects = [
     image: "/assets/work/thumb3.png",
     live: "",
     github: ""
-  },
+  }, */
 ];
 
 const Work = () => {
@@ -75,7 +75,7 @@ const Work = () => {
               {/*project.category */}
               <h2 className="text-[42px] font-bold leading-none text-white
                group-hover:text-accent transition-all duration-500 capitalize">
-                {project.category} project
+                {project.category}
                </h2>
                {/* project description */}
                <p className="text-white/60">{project.description}</p>
