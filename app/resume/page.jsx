@@ -1,9 +1,9 @@
 
 "use client";
 
-import {FaHtml5, FaCss3, FaJs, FaReact, FaFigma, FaNodeJs, FaNode} from "react-icons/fa"
+import {FaHtml5, FaCss3, FaJs, FaReact, FaFigma, FaNodeJs, FaJava, FaGitAlt, FaDocker, FaAws, FaDatabase, FaPython} from "react-icons/fa"
 
-import {SiTailwindcss, SiNextdotjs} from "react-icons/si"
+import {SiTailwindcss, SiNextdotjs, SiSpringboot, SiMicrosoftazure } from "react-icons/si"
 
 //about
 
@@ -90,6 +90,31 @@ const skills = {
   title: "My Skills",
   description: "I am a skilled professional with a diverse skill set covering Java, Spring Boot, RestAPI, Microservices, JavaScript, React.js, HTML5, CSS3, Tailwind CSS, Cloud platforms (Azure, AWS), Docker, Python, and a range of databases. Throughout my professional journey, I have excelled in team leadership, system optimization, and crafting scalable architectures that stand the test of time.",
   skillList: [
+    
+    {
+      icon: <FaJava  />,
+      name: "java"
+    },
+    {
+      icon: <SiSpringboot  />,
+      name: "SpringBoot"
+    },
+    {
+      icon: <FaGitAlt  />,
+      name: "Git"
+    },
+    {
+      icon: <FaDocker   />,
+      name: "docker"
+    },
+    {
+      icon: <FaAws    />,
+      name: "aws"
+    },
+    {
+      icon: <SiMicrosoftazure    />,
+      name: "azure"
+    },
     {
       icon: <FaHtml5 />,
       name: "html 5"
@@ -121,6 +146,14 @@ const skills = {
     {
       icon: <FaFigma />,
       name: "figma"
+    },
+    {
+      icon: <FaDatabase />,
+      name: "sql/oracle"
+    },
+    {
+      icon: <FaPython  />,
+      name: "python"
     },
   ]
 };
